@@ -1,0 +1,76 @@
+.icon h1 i:hover{
+    transform: rotateZ(90deg); 
+}
+.media i{
+    transition: .5s;
+}
+.media:hover i{
+    transform: rotateZ(360deg); 
+    transition: .8s;
+}
+
+.media .icon .graphic img{
+    width: 100%;
+    transition: .5s;
+}
+.media:hover .icon .graphic img{
+    transform: rotateZ(360deg); 
+    transition: .8s;
+}
+
+.portfolio_img{
+overflow: hidden;
+}
+.portfolio_img img{
+transition: .5s;
+}
+.portfolio_img img:hover{
+transition: .5s;
+transform: scale(1.1);
+}
+
+.feedback_item .ratting {
+    align-self: center;
+    text-align: right;
+    right: 0;
+    padding-right: 29px !important;
+    position: absolute;
+}
+.country img{
+    width: 40px !important;
+    float: left;
+}
+.country-name {
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.app_service_item img{
+    width: 80px !important;
+    position: relative;
+}
+
+.screenshot_img {
+    position: relative;
+    overflow: hidden; 
+    transition: 1s;
+  }
+  .p_link {
+      bottom: -41;
+    background-color: #3366aa;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    padding: 7px;   
+    transition: 1s;
+  }
+
+  .p_link a{
+    color: white;
+    text-align: center;
+}
+.screenshot_img:hover .p_link{
+    bottom: 0;
+    transition: 1s;
+}
+    /* -webkit-text-emphasis: double-circle; */
